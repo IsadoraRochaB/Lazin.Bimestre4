@@ -6,7 +6,7 @@ import {
   HomeAdotar,
   HomeMain,
 } from "pages";
-import { PrivateRoute } from "./PrivateRoute";
+
 
 const Routes = () => {
   return (

@@ -24,14 +24,6 @@ const Nav = () => {
           <Link to="/Adotar">Adotar</Link>
         </li>
       </ul>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/faq">FAQ</Link>
-        </li>
-      </ul>
       <S.LoginReg>
         <ul>
           {token && expiresAt && isAfter(parseISO(expiresAt), new Date()) ? (
